@@ -1,9 +1,3 @@
-
-
-1. git clone 
-2. mvn clean & mvn install
-3. java -jar -r target/api-exam-0.0.1-SNAPSHOT.jar
-
 ### api example
 
 #### Development environment
