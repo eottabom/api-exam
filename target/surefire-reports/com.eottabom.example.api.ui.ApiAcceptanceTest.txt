@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.eottabom.example.api.ui.ApiAcceptanceTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 27.019 s - in com.eottabom.example.api.ui.ApiAcceptanceTest

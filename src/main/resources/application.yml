@@ -1,0 +1,36 @@
+server:
+  port: 9090
+
+spring:
+  application:
+    name: ApiExam
+
+  resources:
+    add-mappings: false
+
+  mvc:
+    throw-exception-if-no-handler-found: true
+
+  jackson:
+    default-property-inclusion: non_empty
+
+  datasource:
+    jdbc-url: jdbc:h2:tcp://localhost:9092/mem:devdb_9092
+    username: sa
+    driver-class-name: org.h2.Driver
+    initialization-mode: embedded
+
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
+
+  h2:
+    console:
+      settings:
+        web-allow-others: true
+
+  output:
+    ansi:
+      enabled: always
