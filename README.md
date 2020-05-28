@@ -17,6 +17,8 @@ git clone https://github.com/eottabom/api-exam.git
 
 #### API Guide
 ------
+port : 9090
+
 <pre>
 1. 연도별 금액 많은 고객 추출
 /api/customer/max-account
